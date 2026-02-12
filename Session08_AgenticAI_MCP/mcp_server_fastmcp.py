@@ -23,7 +23,7 @@ def summarize() -> dict:
     }
 
 @app.tool()
-def abc():
+def test_abc():
     return "This is a test function that should not be exposed as a tool."
 
 @app.tool()
